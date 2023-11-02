@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Aplication\MISA.WebFresher062023.Demo.Application.csproj" />
+    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Domain\MISA.WebFresher062023.Demo.Domain.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.143" />
+		<PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+		<PackageReference Include="MySqlConnector" Version="2.2.7" />
+	</ItemGroup>
+
+</Project>
